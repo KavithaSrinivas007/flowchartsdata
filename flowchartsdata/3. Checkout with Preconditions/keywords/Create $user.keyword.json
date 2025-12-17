@@ -1,0 +1,193 @@
+{
+  "name": "Create $user",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "title": "Create $user",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_01679571973977",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_01679571973977"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_11679571973977",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_11679571973977"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_21679571973977",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_21679571973977"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_31679571973977",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_31679571973977"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41679571973977",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41679571973977"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41679571973977",
+            "accessorId": "acc1"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41679571973977"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setSelected",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_radioGroup(\"newsletter\")"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "\"1\""
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_check",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_checkbox(\"agree\")"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "true"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_submit(\"Continue\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
